@@ -6,6 +6,44 @@
 
 body {
   font-family: Arial, sans-serif;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+.display-photo {
+  width: 40%;
+  background-color: aquamarine;
+  background-image: url(./images/jesus-eca-wewzzx11ShI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .credit {
+    background: linear-gradient(0deg, rgba(2,0,36,0.5) 0%, rgba(2,53,91,0.3) 40%, rgba(0,212,255,0) 90%);
+    width: inherit;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0.75em;
+    color: #ffffff;
+    a { color: inherit; opacity: 75%;}
+  }
+}
+
+main {
+  width: 60%;
+  padding: 1rem 3rem;
+}
+
+label {
+  display: block;
+  font-size: 0.75em;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }

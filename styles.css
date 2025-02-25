@@ -177,3 +177,11 @@ button + p {
     color: var(--accent);
   }
 }
+
+.error-message {
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  color: red;
+}
